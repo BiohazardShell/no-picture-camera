@@ -1,6 +1,5 @@
-# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -
 
-import PIL
 from picamera.array import PiRGBArray
 from picamera import PiCamera
 from imutils.object_detection import non_max_suppression
@@ -43,7 +42,7 @@ def main():
     # initialise model for human faces
     #
     face_cascade = cv2.CascadeClassifier('models/haarcascade_frontalface_alt.xml')
-    profile_cascade = cv2.CascadeClassifier('models/haarcascade_profileface.xml')
+    profile_cascade = cv2.CascadeClassifier('models/haarcascade_.xml')
 
     # initialise model for standing humans
     #
